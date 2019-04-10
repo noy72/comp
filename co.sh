@@ -26,7 +26,7 @@
         g++ $1 -g -std=c++14 && lldb a.out
     else
         echo "only"
-        g++ $1 -std=c++11
+        g++ $1 -std=c++14
     fi
 
     OPTIND=$OPTIND_SAVE
